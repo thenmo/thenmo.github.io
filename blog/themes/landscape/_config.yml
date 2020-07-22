@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Github: https://github.com/ahonn
 rss: /atom.xml
 
 # Content

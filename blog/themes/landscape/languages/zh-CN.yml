@@ -17,3 +17,11 @@ powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
+Menu:
+  Home: 首页
+  Archives: 归档
+  Github: 交友
+
+Paginator:
+  Prev: 上一页
+  Next: 下一页
