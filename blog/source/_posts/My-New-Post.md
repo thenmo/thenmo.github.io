@@ -2,6 +2,7 @@
 title: My New Post
 date: 2020-07-22 16:06:52
 comments: true
+id:9071
 categories:
 - 综合
 tags:
