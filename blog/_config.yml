@@ -9,7 +9,7 @@ description: '大外贸'
 keywords: 外国,语言
 author: "李金阳"
 language: zh-CN
-timezone: 'GMT+:08:23'
+timezone: 'GMT+:08:00'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -94,7 +94,30 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
-
+# RSS订阅
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+# 搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
