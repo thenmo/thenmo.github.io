@@ -93,10 +93,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jacman
+theme: pacman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-type: github
-repository: https://github.com/thenmo/thenmo.github.io.git
+  type: git
+  repo: git@github.com:thenmo/thenmo.github.io.git
+  branch: master
