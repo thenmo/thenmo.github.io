@@ -59,7 +59,7 @@ Ryo.CountNumberVId = Number(Ryo.parameters['Turn VID'] || 0);
 // * Load
 //==============================
 ImageManager.loadTurn = function(filename) {
-    return this.loadBitmap('img/turn/', filename, 0, true);
+    return this.loadBitmap('img/Turn/', filename, 0, true);
 };
 
 //==============================
