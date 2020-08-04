@@ -242,10 +242,10 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
-#wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
-#bitcoin: /images/bitcoin.png
+reward_comment: Donate comment here
+wechatpay: /images/wechatpay.jpg
+alipay: /images/alipay.jpg
+bitcoin: /images/bitcoin.png
 
 # Declare license on posts
 post_copyright:
@@ -379,8 +379,8 @@ changyan:
 # more info please open https://valine.js.org
 valine:
   enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  appid: S5r4bTxSDj3aMwv9XkN14U7m-gzGzoHsz # your leancloud application appid
+  appkey: Hmdfxe7m8aLunqB0wAj5kOJX # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -557,7 +557,7 @@ busuanzi_count:
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_footer: <dtm>缩放</dtm>100%
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
