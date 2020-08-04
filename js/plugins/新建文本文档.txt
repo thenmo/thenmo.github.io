@@ -1,0 +1,1 @@
+function geshi() = DataManager.Actors(1);
